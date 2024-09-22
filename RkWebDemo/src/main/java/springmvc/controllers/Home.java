@@ -7,12 +7,31 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class Home {
 
-	@RequestMapping("/hello")
-	//@ResponseBody
-	public String greeting()
+	@RequestMapping("/login")
+	// @ResponseBody
+	public String login() {
+		return "login";
+	}
+
+	
+	@RequestMapping("/signup")
+	// @ResponseBody
+	public String signup() {
+		return "signup";
+	}
+
+	
+	@RequestMapping("/dashboard")
+	// @ResponseBody
+	public String dashboard() {
+		return "dashboard";
+	}
+	
+	
+	@RequestMapping("/forgot-password")
+	// @ResponseBody
+	public String resetPassword()
 	{
-		System.out.println("WelcomeController.greeting()");
-		
-		return "welcome";
+		return "forgot-password";
 	}
 }
