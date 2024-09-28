@@ -93,7 +93,7 @@
             <a href="#">Users</a>
             <a href="#">Reports</a>
             <a href="#">Settings</a>
-            <a href="#">Logout</a>
+            <a href="logout">Logout</a>
         </div>
 
         <!-- Main Content -->

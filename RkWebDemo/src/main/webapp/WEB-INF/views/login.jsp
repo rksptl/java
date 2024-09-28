@@ -6,7 +6,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Login #07</title>
+<title>Login</title>
 <style>
 body {
 	font-family: 'Arial', sans-serif;
@@ -125,7 +125,7 @@ body {
 		<!-- Sign In Section -->
 		<div class="form-container">
 			<h2>Sign In</h2>
-			<form action="dashboard" method="post">
+			<form action="login" method="post">
 				<input type="text" name="username" placeholder="Username" required>
 				<input type="password" name="password" placeholder="Password"
 					required>
@@ -138,6 +138,10 @@ body {
 					<a href="forgot-password">Forgot Password?</a>
 				</div>
 			</form>
+			
+			<c:if test="${not empty error}">
+				<p style="color: red;">${error}</p>
+			</c:if>
 		</div>
 
 		<!-- Welcome Section -->

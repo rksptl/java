@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class Home {
 
-	@RequestMapping("/login")
-	// @ResponseBody
-	public String login() {
-		return "login";
-	}
+//	@RequestMapping("/login")
+//	// @ResponseBody
+//	public String login() {
+//		return "login";
+//	}
 
 	
 	@RequestMapping("/signup")
