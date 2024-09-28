@@ -138,7 +138,7 @@ body {
 					<a href="forgot-password">Forgot Password?</a>
 				</div>
 			</form>
-			
+
 			<c:if test="${not empty error}">
 				<p style="color: red;">${error}</p>
 			</c:if>

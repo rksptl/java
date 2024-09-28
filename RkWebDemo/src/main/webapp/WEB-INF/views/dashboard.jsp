@@ -88,7 +88,7 @@
     <div class="dashboard-container">
         <!-- Sidebar -->
         <div class="sidebar">
-            <h2>Admin Panel</h2>
+            <h2>Java Expert</h2>
             <a href="#" class="active">Dashboard</a>
             <a href="#">Users</a>
             <a href="#">Reports</a>
@@ -115,7 +115,7 @@
                 </div>
                 <div class="card">
                     <h3>Revenue</h3>
-                    <p>$45,000</p>
+                    <p>₹45,000</p>
                 </div>
             </div>
 
